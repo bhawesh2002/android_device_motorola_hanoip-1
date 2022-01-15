@@ -37,9 +37,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
-    bootctrl.sm6150
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.sm6150 \
     libgptutils \
     libz \
